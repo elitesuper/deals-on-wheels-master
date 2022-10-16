@@ -1,0 +1,316 @@
+.carousel {
+    width: 100%;
+    height: 700px;
+    background-color: #FFFFFF;
+    padding: 5px 0px;
+}
+
+.carouselInner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    object-fit: cover;
+    
+}
+
+.carouselInner .left {
+    flex: 5%;
+    height: 100%;
+    background: linear-gradient(-270deg, #FFFFFF 0%, rgba(217, 217, 217, 0) 100%);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.carouselInner .center {
+    flex: 80%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-align-last: center;
+}
+
+/* h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 2rem;
+} */
+
+/* h1, p {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 9px;
+} */
+
+.carouselInner .right {
+    flex: 5%;
+    height: 100%;
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(217, 217, 217, 0) 100%);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.slider__text{
+    
+    width: 73%;
+    /* margin: 0 auto; */
+    /* padding: 8px 15px;
+    padding-top: 12px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    position: absolute;
+    top: 40px;
+    left: 51.5%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.7);
+box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.15);
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+.slider__btns{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider__btns button{
+    margin-left: 10px;
+    background: #FFFFFF;
+border-radius: 5px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+color: #141414;
+padding: 7px 20px;
+border: 0;
+}
+
+.slider__text h3 {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.slider__text__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-10px);
+}
+
+.slider-wrapper{
+    position: relative;
+}
+
+.slider__text__flex p{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+
+color: #5B5B5B;
+
+
+
+}
+
+
+.slide__price{
+    font-family: 'Jost' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 25px !important;
+line-height: 36px !important;
+text-align: right !important;
+
+color: #D95050 !important;
+}
+
+
+@media screen and (max-width: 950px) {
+    .slider__btns{
+        /* position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%); */
+        display: flex;
+        flex-direction: column;justify-content: center;
+    }
+
+    .slider__text__flex p{
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 21px;
+    
+    color: #5B5B5B;
+    
+    
+    
+    }
+
+    .slider__text h3 {
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    }
+
+    .slider__text{
+        margin-top: 30px;
+    }
+    
+
+    .slide__price{
+        font-family: 'Jost' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 32px !important;
+    text-align: right !important;
+    
+    color: #D95050 !important;
+    transform: translateY(15px);
+    }
+
+    .vin-sto{
+        font-size: 10px !important;
+    }
+
+    .slider__btns button{
+        margin-left: 10px;
+        background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #141414;
+    padding: 6px 18px;
+    }
+
+    .carouselInner {
+        height: 100%;
+        width: 100%;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: contain;
+        display: flex;
+        object-fit: contain;
+        
+    }
+
+
+    .slider__btns button{
+        margin-left: 10px;
+        background: black;
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    padding: 3px 15px;
+    border: 0;
+    margin-top: 10px;
+    transform: translateY(-7rem);
+    }
+    
+
+   
+}
+
+
+
+@media screen and (max-width: 1100px) and (min-width: 768px) {
+    
+    .vin-sto{
+        font-size: 13px !important;
+    }
+
+    .slide__price{
+        font-family: 'Jost' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    line-height: 32px !important;
+    text-align: right !important;
+    
+    color: #D95050 !important;
+    transform: translateY(15px);
+    }
+
+    .slider__btns button{
+        margin-left: 10px;
+        background: black;
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    padding: 4px 17px;
+    border: 0;
+    margin-top: 10px;
+    transform: translateY(0);
+    }
+    
+
+   
+}
+
+
+
+    

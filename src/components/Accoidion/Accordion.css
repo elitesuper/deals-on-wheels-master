@@ -1,0 +1,105 @@
+.main-accordion h1 {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 51px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.accordion .ques {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px !important;
+    line-height: 35px;
+
+    
+    
+    color: #000000;
+
+}
+
+.accordion p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+color: #737373;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+    padding: 8px 16px 16px;
+    
+    background: #F7F7F7;
+/* border: 1px solid #CDCDCD; */
+border-radius: 5px;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+    min-height: 64px;
+    background: #CDCDCD !important;
+}
+
+.main-accordion{
+    background: #FFFFFF;
+border: 1px solid #E3E3E3;
+border-radius: 10px;
+padding: 20px 10px;
+margin: 5rem  0;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-accordion{
+        margin: 0;
+    }
+
+    .main-accordion h1 {
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 45px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    }
+
+    .accordion .ques {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px !important;
+        line-height: 35px;
+    
+        
+        
+        color: #000000;
+    
+    }
+
+    .accordion p {
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* or 160% */
+    
+    
+    color: #737373;
+    }
+}
+    

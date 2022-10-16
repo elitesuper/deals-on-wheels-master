@@ -1,0 +1,321 @@
+.brcard {
+  height: 260px;
+  background-color: rebeccapurple;
+
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+
+  margin-bottom: 25px;
+}
+
+.bgcard__info h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px !important;
+  line-height: 32px;
+
+  color: #000000;
+}
+
+.hero-card-br {
+  /* background-color: gold; */
+}
+
+.bgcard__img {
+  width: 260px;
+  height: 224px !important;
+  background-color: #ffffff;
+  padding: 2px;
+}
+.bgcard__img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.bgcard__info {
+  /* background-color: red; */
+  width: 470px;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+
+.bgcard__info p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: right;
+  margin-top: -3px;
+
+  color: #777777;
+}
+
+.bgcard__vin {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #5b5b5b;
+}
+
+.bgcard__feature {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.bgcard__feature p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+
+  color: #5b5b5b;
+}
+
+.bgcard__feature2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+
+.bgcard__feature2 p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+
+  color: #5b5b5b;
+}
+
+.bg-btn {
+  width: 100px;
+  margin: 0 3px;
+  background: #333333;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 4px 7px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.bgcard__btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.bg-btn4 {
+  width: 150px;
+  background-color: #d95050;
+  border: 0;
+  transform: translateX(-1px);
+}
+/* .dont{
+    transform: translateX(-40px) !important;
+} */
+
+/* .ali{
+    width: 250px;
+    height: 800px;
+    background-color: red;
+} */
+
+.bgcard__info h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+/* responsive */
+
+
+
+@media screen and (max-width: 850px) {
+  .brcard {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 0rem;
+    margin-top: 20px;
+  }
+  /* .bgcard__img {
+    width: 300px;
+    transform: translateX(40px);
+  } */
+  .bgcard__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    /* background-color: red; */
+  }
+  .bgcard__info p {
+    width: 100%;
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    /* transform: translateX(-8%); */
+    /* margin: auto; */
+    /* margin-left: 2rem; */
+    /* background-color: red; */
+  }
+  .bgcard__content {
+    margin-left: 0;
+  }
+  .bgcard__feature {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .bgcard__feature2 {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .bgcard__btns {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .bg-btn {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .dont {
+    transform: translateX(0px) !important;
+  }
+  .bgcard__info h3 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px !important;
+    line-height: 32px;
+    text-align: center;
+    /* margin-left: 20px; */
+    /* identical to box height */
+    /* transform: translateX(-8%); */
+
+    color: #000000;
+  }
+
+  .brcard {
+    width: 70%;
+    height: auto;
+    background-color: rebeccapurple;
+    margin: auto;
+
+    background: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px; */
+
+    margin-bottom: 25px;
+  }
+
+  .bgcard__img {
+    width: 90%;
+    height: auto !important;
+    background-color: #ffffff;
+    padding: 2px;
+    /* transform: translateX(3%); */
+    margin: 0 auto;
+  }
+  .bgcard__img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  /* .bgcard__img {
+    width: 400px;
+    height: 300px !important;
+    background-color: #ffffff;
+    padding: 2px;
+    transform: translateX(3%);
+    margin: 0 auto;
+    margin-top: 20px;
+  } */
+
+  .bgcard__info p {
+    /* font-size: 18px;
+    text-align: center; */
+
+    /* transform: translateX(8.5rem); */
+  }
+
+  .bgcard__info h3 {
+    /* transform: translateX(8.5rem); */
+  }
+}
+
+/* @media screen and (max-width: 813px) and (min-width: 551px) {
+  .bgcard__info p {
+    font-size: 22px;
+    text-align: center;
+
+    transform: translateX(1.8rem);
+  }
+
+  .bgcard__info h3 {
+    transform: translateX(1.7rem);
+  }
+} */
+
+
+@media screen and (max-width:550px) {
+
+    
+  .brcard {
+    width: 100%;
+    height: auto;
+    background-color: rebeccapurple;
+    margin: auto;
+
+    background: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px; */
+
+    margin-bottom: 25px;
+  }
+
+
+    
+}
+

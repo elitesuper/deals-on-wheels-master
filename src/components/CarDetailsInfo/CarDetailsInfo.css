@@ -1,0 +1,335 @@
+.car_det_info_wrapper{
+    background: #336DC4;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+padding-left: 20px;
+padding-right: 30px;
+padding-top: 25px;
+padding-bottom: 15px;
+}
+
+.car_det_info_wrapper p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #D1E4FF;
+
+}
+
+.car_det_info_wrapper h4 {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 36px;
+transform: translateY(-20px);
+
+color: #FFFFFF;
+}
+
+.det-paper .paper_info{
+    background: #FFFFFF !important;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15) !important;
+border-radius: 5px !important;
+/* width: 200px !important; */
+height: 80px !important;
+padding: 30px 20px;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+margin-top: 5px;
+/* margin-right: 5px; */
+
+
+}
+
+.det-paper {
+    margin-top: 30px;
+}
+
+.paper_info_heading{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 23px;
+
+color: #141414;
+
+}
+
+.paper_ingo_title{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #141414;
+
+}
+
+@media screen and (max-width: 756px){
+    .grid_papers{
+        justify-content: center;
+    }
+
+    .paper_info_heading{
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #141414;
+    
+    }
+
+    
+.paper_ingo_title{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #141414;
+
+}
+
+.car_det_info_wrapper p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #D1E4FF;
+
+}
+
+
+.car_det_info_wrapper h4 {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 32px;
+transform: translateY(-20px);
+
+color: #FFFFFF;
+}
+
+}
+
+.papers_sub{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+
+color: #343434;
+margin-top: 17px;
+}
+
+.car_form p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 27px;
+
+/* color: #FFFFFF; */
+}
+
+.car_form{
+    background: #D95050;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+text-align: center;
+position: relative;
+padding: 20px;
+}
+
+.car_form p {
+    
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+
+.car_form input {
+    background: #C73B3B;
+border-radius: 5px;
+width: 80%;
+height: 50px;
+padding: 20px;
+margin-bottom: 10px;
+border: 0;
+color: white;
+}
+.car_form textarea {
+    background: #C73B3B;
+border-radius: 5px;
+resize: none;
+width: 80%;
+height: 110px;
+padding: 20px;
+}
+
+.car_form textarea::placeholder{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+
+}
+.car_form input::placeholder{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.car_form_btn{
+    text-align: left;
+    margin-left: 2.3rem;
+   
+   
+}
+.car_form_btn button {
+    background: #000000;
+border-radius: 5px;
+color: white;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+padding: 5px 35px;
+
+}
+
+@media screen and (max-width:900px) {
+    .car_form_btn button {
+        background: #000000;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    padding: 4px 30px;
+    
+    }
+
+    .car_form p {
+    
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        
+        color: #FFFFFF;
+        }
+
+        .papers_sub{
+            text-align: justify;
+            font-size: 15px;
+            line-height: 30px;
+
+        }
+
+        .car_form input::placeholder{
+            font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height */
+        
+        
+        color: rgba(255, 255, 255, 0.8);
+        
+        }
+
+        .car_form_btn button {
+            background: #000000;
+        border-radius: 5px;
+        color: white;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 26px;
+        /* identical to box height */
+        
+        text-align: center;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+        padding: 3px 20px;
+        margin-top: 7px;
+        
+        }
+        .car_det_info_wrapper h4 {
+            font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 36px;
+        transform: translateY(-20px);
+        
+        color: #FFFFFF;
+        }
+        
+
+    
+}
+
+

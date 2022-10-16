@@ -1,0 +1,46 @@
+.about-two{
+    margin: 15rem 0;
+    margin-bottom: 10rem;
+}
+
+.about-two h2{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 51px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+}
+
+.about-two p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+/* or 145% */
+
+
+color: #737373;
+margin-top: 1.6rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    .about-two h2{
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .about-two p{
+        font-size: 18px;
+        line-height: 28px;
+        text-align: justify;
+    }
+}
+    

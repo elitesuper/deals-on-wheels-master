@@ -1,0 +1,229 @@
+.navbar {
+    background: #FFFFFF;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+  }
+  
+  .navbar-logo {
+    color: black !important;
+    justify-self: start;
+    margin-left: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo img {
+    width: 70px;
+    /* background-color: red; */
+    /* padding: 0 0.2rem; */
+    border-radius: 0;
+    
+    
+   
+  
+  }
+  
+  .fa-typo3 {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .nav-item {
+    height: 80px;
+  }
+  
+ .navbar .nav-links {
+    color: #000000;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    transition: all 0.1s ease-out;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+
+line-height: 26px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #000000;
+
+/* identical to box height */
+
+
+color: #000000;
+  }
+  
+  .nav-links:hover {
+    opacity: 0.8;
+    color: #D95050 !important;
+   
+  }
+  
+  .fa-bars {
+    color: black !important;
+  }
+  .fa-times{
+    color: black !important;
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .NavbarItems {
+      position: relative;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 90vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: #fff;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-links:hover {
+      background-color: #fff;
+      color: #242424;
+      border-radius: 0;
+    }
+  
+    .navbar-logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(25%, 50%);
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: #fff;
+      font-size: 2rem;
+    }
+  
+    .nav-links-mobile {
+      display: block;
+      /* text-align: center; */
+      margin: 2rem auto;
+      border-radius: 4px;
+      /* width: 80%; */
+      text-decoration: none;
+      font-size: 1rem;
+      background-color: #D95050;
+      color: #fff;
+      padding: 10px 20px;
+      border: 1px solid #fff;
+      transition: all 0.3s ease-out;
+    }
+
+    .nav-links-mobile:hover {
+      color: white;
+      opacity: 0.8;
+     
+    }
+    
+  
+    /* .nav-links-mobile:hover {
+      background: #fff;
+      color: #242424;
+      transition: 250ms;
+    } */
+
+   
+  }
+
+  .btn{
+    background-color: #D95050 !important;
+    font-size: 18px !important;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 207px !important;
+    height: 50px !important;
+    border: 0;
+    margin-bottom: 5px;
+  }
+  .btn-nav:hover{
+    color: gold !important;
+  }
+
+  .btn--large:hover, .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: white !important;
+    transition: 250ms;
+    opacity: 0.9;
+}

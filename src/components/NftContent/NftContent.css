@@ -1,0 +1,47 @@
+.nft-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 2px;
+    padding-left: 20px;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.card_nft{
+    justify-content: center;
+}
+
+.nft-content h2 {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 51px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .nft-content h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .nft-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+      
+    }
+
+    .nft-auto-complete{
+        margin-left: 50px;
+    }
+}
+    

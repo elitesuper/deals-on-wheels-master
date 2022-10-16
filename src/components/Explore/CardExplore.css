@@ -1,0 +1,45 @@
+
+.expolre__card__title{
+   display: flex;
+   transform: translateY(-10px);
+   
+}
+
+.text_little{
+    /* color: white;
+    z-index: 9999999;
+    transform: translateY(-3rem);
+    position: relative;
+    left: 4px;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 51px; */
+margin-top: 5px;
+
+color: white;
+    
+}
+
+.ce-title{
+    font-family: 'Jost' !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 18px !important;
+line-height: 27px !important;
+
+color: #FFFFFF !important;
+
+}
+
+.ce-eath{
+   margin-bottom: 20px;
+}
+
+.expolre__card__title .fa-ethereum{
+    font-size: 10px !important;
+    position: relative;
+    bottom: 2px;
+   
+}

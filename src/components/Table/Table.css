@@ -1,0 +1,98 @@
+h1{
+    margin-bottom: 20px;
+    color: #000000;
+    font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 36px;
+font-family: 'Jost';
+}
+
+
+ul li{
+    color: #737373;
+    margin-bottom: 16px;
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+font-family: 'Jost';
+list-style-type: none;
+}
+
+.table{
+    /* border:1px solid black; */
+    border-radius: 10px;
+   /* padding: 10px 5px 30px 5px; */
+   padding-left:2rem;
+   padding-right: 3rem;
+   padding-bottom: 5rem;
+   padding-top: 2rem;
+   margin-bottom: 5rem;
+   position: relative;
+   margin-top: 9rem;
+   
+   
+background: rgba(255, 255, 255, 0.52);
+box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.14);
+    
+}
+.table .css-9tj150-MuiButton-endIcon>*:nth-of-type(1) {
+    font-size: 45px !important;
+    font-weight: bold !important;
+    margin-left: -20px !important;
+}
+.table .btn__table{
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+    font-style: normal;
+font-weight: 700;
+font-size: 16px !important;
+line-height: 26px;
+color: #336DC4;
+font-family: 'Jost' !important;
+line-height: 26px;
+/* identical to box height */
+
+text-decoration-line: underline !important;
+text-transform: capitalize !important;
+
+color: #336DC4;
+
+}
+
+hr{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    /* .table{
+        padding: 10px 5px 30px 5px;
+    } */
+    hr{
+        display: block;
+        width: 50%;
+        
+    }
+    h1{
+        margin-bottom: 20px;
+        color: #000000;
+        font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    font-family: 'Jost';
+    }
+
+    ul li{
+        color: #737373;
+        margin-bottom: 16px;
+        font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    font-family: 'Jost';
+    }
+}
+    

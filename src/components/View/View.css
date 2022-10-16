@@ -1,0 +1,152 @@
+.view-hero img{
+    border-radius: 5px;
+}
+
+.view-hero {
+    position: relative;
+    margin: 5rem 0;
+}
+
+.view__text{
+    position: absolute;
+   left: 2rem;
+   bottom: 2rem;
+   
+}
+
+.view__text h2{
+    color:#FFFFFF;
+    letter-spacing: 3px;
+    font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+font-family: 'Jost';
+}
+
+.view__text p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+margin-bottom: 2rem;
+margin-top: 1rem;
+/* or 145% */
+
+
+color: #D1D1D1;
+}
+
+
+.view__btn{
+    background-color: #D95050 !important;
+    padding: 8px 15px !important;
+    font-family: 'Jost' !important;
+font-style:  normal !important;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .view-hero {
+        margin: 2rem 0;
+    }
+    .view__text{
+        left: 0;
+        bottom: 0;
+    }
+    .view__text h2{
+        color:#FFFFFF;
+        letter-spacing: 1px;
+        font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Jost';
+    transform: translateY(-20px);
+    }
+    .view__text p {
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    /* or 145% */
+    /* background-color: red; */
+    padding-bottom: 10px;
+    transform: translateY(-20px);
+   
+    
+    
+    color: #D1D1D1;
+    }
+   
+    .view-hero .view__btn{
+        background-color: #D95050 !important;
+        padding: 2px 8px !important;
+        font-size: 8px !important;
+        position: relative;
+        left: 50%;
+        bottom: 0;
+      
+    }
+   
+    .view__text{
+        position: absolute;
+       left:50%;
+       top: 50%;
+     
+       transform: translate(-80%,-50%);
+       
+    }
+
+  
+}
+
+
+
+@media screen and (max-width:370px) {
+    .view__text h2{
+        color:#FFFFFF;
+        letter-spacing: 1px;
+        font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    font-family: 'Jost';
+    transform: translateY(-20px);
+    }
+    .view__text p {
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 10px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    /* or 145% */
+    /* background-color: red; */
+    padding-bottom: 10px;
+    transform: translateY(-20px);
+   
+    
+    
+    color: #D1D1D1;
+    }
+
+    .view-hero .view__btn{
+        background-color: #D95050 !important;
+        padding: 1px 5px !important;
+        font-size: 6px !important;
+        position: relative;
+        left: 50%;
+        bottom: 0;
+      
+    }
+    
+}
+    

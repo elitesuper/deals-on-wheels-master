@@ -1,0 +1,79 @@
+.realted_nft_heading{
+    font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 51px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+  }
+
+
+  .mob-img-container{
+    width: 550px;
+    height: 520px;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+   position: relative;
+   right: 50px;
+    
+  }
+  .mob-img-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .one-step{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 139px;
+text-align: center;
+
+color: #000000;
+
+  }
+
+  @media screen and (max-width: 1200px) {
+    .mob-img-container{
+        width:400px;
+        height: 400px;
+        /* position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%); */
+       /* position: relative;
+       left: 40px; */
+       margin-left: px;
+   
+        
+      }
+      .mob-img-container img {
+        margin-left: 50px;
+      }
+
+      .one-step{
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+   
+    
+    color: #000000;
+    
+      }
+
+
+
+   
+    
+  
+  }

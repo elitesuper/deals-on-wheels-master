@@ -1,0 +1,369 @@
+.nft-det-banner__btn{
+    /* font-family: 'Font Awesome 6 Free' !important; */
+    font-family: sans-serif;
+font-style: normal !important ;
+font-weight: 700 !important;
+font-size: 16px !important;
+line-height: 18px !important;
+
+color: #336DC4 !important;
+}
+
+.css-1d6wzja-MuiButton-startIcon>*:nth-of-type(1) {
+    font-size: 20px;
+    margin-right: -10px !important;
+}
+
+.nft-det-img-container{
+    width: 500px;
+    height: 500px;
+}
+
+.nft-det-img-container img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.h6_nft-det{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    
+    color: #000000;
+    
+
+}
+
+.border-span{
+    width: 100%;
+    height: 1px;
+    background-color: #AFAFAF;;
+}
+.pirce_det_nft{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #4D4D4D;
+}
+
+.price_eth{
+    display: flex;
+}
+
+.price_eth h6 {
+    font-family: 'Font Awesome 6 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 25px;
+
+color: #000000;
+}
+.price_eth p {
+    color: #747474;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.nft-det-bnner-btn{
+    width: 185px;
+height: 46px;
+left: 960px;
+top: 396px;
+
+background: #D95050;
+border-radius: 5px;
+border: 0;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+margin-top: 15px;
+;
+}
+
+.fa-ethereum{
+    transform: scale(1.5);
+    margin-right: 10px;
+    margin-top: 9px;
+    /* transform: translateY(5px); */
+    
+    /* background-color: red; */
+
+} 
+
+.nft-det-des-container p{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+color: #737373;
+
+}
+
+.c-address-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.c-address-con p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+
+color: #737373;
+}
+
+.c-address-con .specific-addr{
+
+/* identical to box height, or 160% */
+
+text-align: right;
+text-decoration-line: underline;
+
+color: #D95050 !important;
+cursor: pointer;
+}
+
+.c-token-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.c-token-con p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #737373;
+
+}
+ 
+
+
+.c-token-con .specific-token{
+    
+    text-align: right;
+text-decoration-line: underline;
+
+color: #D95050 !important;
+cursor: pointer;
+}
+
+
+.c-stn-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-stn-con p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+text-align: right;
+
+color: #737373;
+}
+
+.nft-det-des-container{
+    background: rgba(255, 255, 255, 0.4);
+border: 1px solid #DDDDDD;
+backdrop-filter: blur(100px);
+padding: 25px 15px;
+/* width: 660px;
+height: 418px; */
+margin-top: 2rem;
+}
+
+  
+
+
+@media screen and (max-width: 1024px) {
+    .nft-det-img-container{
+        width: 350px;
+        height: 350px;
+        transform: translateX(58px);
+        
+        
+        
+    }
+    .price_eth{
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+    .nft-det-banner__btn{
+        font-family: 'Font Awesome 6 Free' !important;
+    font-style: normal !important ;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    
+    color: #336DC4 !important;
+    }
+
+    .nft-bnner-text{
+        flex-direction: column;
+    }
+
+    .nft-det-bnner-btn{
+        width: 100%;
+    height: 35px;
+    left: 960px;
+    top: 396px;
+    /* position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%); */
+    
+    
+    background: #D95050;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-top: 30px
+    ;
+    }
+
+    .price_eth h6 {
+        font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 23px;
+    
+    color: #000000;
+    }
+
+    .nft-det-des-container p{
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 32px;
+    /* or 160% */
+    
+    
+    color: #737373;
+    
+    }
+
+   .pirce_det_nft{
+    transform: translateY(-10px);
+   }
+
+   .realted_nft_heading {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 51px;
+    color: #000000;
+    text-align: center;
+}
+.nft-det-img-container{
+    width: 300px;
+    height: 300px;
+    transform: translateX(2rem);
+    margin-bottom: 20px;
+}
+.price_eth h6 {
+    font-family: 'Font Awesome 6 Brands';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 23px;
+
+color: #000000;
+}
+.fa-ethereum{
+    transform: scale(1.1);
+    margin-right: 10px;
+    margin-top: 5px;
+    /* transform: translateY(5px); */
+    
+    /* background-color: red; */
+
+} 
+
+.h6_nft-det{
+    font-family: 'Jost';
+    font-size: 22px;
+
+}
+}
+
+@media screen and (max-width:900px) and (min-width:580px){
+    .nft-det-img-container{
+        width: 600px;
+        height: 600px;
+        transform: translateX(2rem);
+        margin-bottom: 20px;
+    }
+
+    .h6_nft-det{
+        font-family: 'Jost';
+        font-size: 26px;
+    
+    }
+
+    .price_eth h6 {
+        font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #000000;
+    }
+    .fa-ethereum{
+        transform: scale(1.3);
+        margin-right: 10px;
+        margin-top: 8px;
+        /* transform: translateY(5px); */
+        
+        /* background-color: red; */
+    
+    } 
+}
+    

@@ -1,0 +1,133 @@
+.blod-section-container img {
+    border-radius: 5px;
+}
+
+.blog_title{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 36px;
+
+color: #000000;
+margin-top: 20px;
+
+}
+
+.blog_date{
+    margin-top: -20px;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.blog_info{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+color: #737373;
+
+}
+
+.blog_btn{
+   
+width: 175px !important;
+height: 48px !important;
+
+
+background: #D95050 !important;
+border-radius: 5px !important;
+font-family: 'Jost' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 16px !important;
+line-height: 26px !important;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF !important;
+
+}
+
+.css-9tj150-MuiButton-endIcon>*:nth-of-type(1) {
+    font-size: 27px;
+}
+
+/* .blod-section-container{
+    margin-top: 35px;
+} */
+
+@media screen and (max-width: 768px) {
+    .blog_title{
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    
+    color: #000000;
+    margin-top: 20px;
+    text-align: center;
+    
+    }
+
+    .blog_date{
+        margin-top: -20px;
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    
+    
+    color: #000000;
+    }
+
+    .blog_info{
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    
+    color: #737373;
+    text-align: justify
+    ;
+    
+    }
+
+    .blog_btn{
+   
+        width: 130px !important;
+        height: 35px !important;
+        
+        
+        background: #D95050 !important;
+        border-radius: 5px !important;
+        font-family: 'Jost' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 10px !important;
+        line-height: 26px !important;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #FFFFFF !important;
+        
+        }
+    
+}
+    

@@ -1,0 +1,89 @@
+.team-card h5 {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 36px;
+
+color: #000000;
+
+}
+
+.team-card .desc{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #757575;
+}
+
+.team-card .phone {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+margin-top: 10px;
+
+
+color: #D95050;
+}
+
+.team-card .site {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+margin-top: -5px;
+
+
+color: #D95050;
+
+}
+
+@media screen and (max-width: 768px) {
+    .team-card h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .team-card .desc{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .team-card .phone {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .team-card .site {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 768px){
+    .team-card h5 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .team-card .desc{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .team-card .phone {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .team-card .site {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+}
+    

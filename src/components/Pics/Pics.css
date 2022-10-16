@@ -1,0 +1,72 @@
+.pics h1 {
+    text-align: center;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 51px;
+margin-bottom: 3rem;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pics{
+    padding: 20px;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.pics .btn__cars{
+    margin: 20px auto !important;
+    text-align: center !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px !important;
+    padding: 7px 15px !important;
+    margin-top: 3rem !important;
+    font-family: 'Jost' !important;
+font-style: normal !important;
+text-transform: capitalize !important;
+
+}
+
+.pa{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    overflow-x: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .pics h1 {
+        text-align: center;
+        font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 51px;
+    margin-bottom: 3rem;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    }
+  
+}
+    
