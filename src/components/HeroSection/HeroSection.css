@@ -19,13 +19,9 @@ color: #000000;
     font-size: 22px;
     margin: 1.5rem 0;
     font-family: 'Jost';
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-/* or 145% */
-
-
-color: #737373;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
 }
 
 .meta{
@@ -34,23 +30,18 @@ color: #737373;
 
 .hero .btn {
     background-color:  #D95050;
-    /* width: 200px !important;
-    height: 50px !important; */
-    /* padding: 20px 60px; */
     font-size: 17px !important;
     font-style: normal !important;
-font-weight: 700 !important;
+    font-weight: 700 !important;
 
-line-height: 26px !important;
-/* identical to box height */
+    line-height: 26px !important;
+    /* identical to box height */
 
-text-align: center;
+    text-align: center;
 
-font-family: 'Jost';
-font-style: normal;
+    font-family: 'Jost';
 
-
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -99,16 +90,27 @@ img{
         line-height: 24px !important;
         width: 145px !important;
         height: 40px !important;
-        
     }
-
     .coin {
         display: none;
-       
     }
 }
 
+@media screen and (max-width: 900px) {
 
+    .explorebtnlayout{
+        justify-content: center;
+    }
+
+    .hero-info{
+        width: 80vw;
+        margin: auto;
+        /* text-align: center; */
+    }
+    .hero-info {
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 1100px) and (min-width: 768px) {
     .hero h1 {

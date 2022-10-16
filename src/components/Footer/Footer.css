@@ -13,17 +13,17 @@
 
 .footer-container p {
 	color: #444444;
-font-family: "jost";
-font-size: 17px;
+	font-family: "jost";
+	font-size: 17px;
 }
 
 .footer-container span {
 	font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-text-decoration-line: underline;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 26px;
+	text-decoration-line: underline;
 
 color: #444444;
 }
@@ -36,30 +36,30 @@ color: #444444;
 
 .footer-heading{
 	font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 26px;
+	/* identical to box height */
 
-text-transform: uppercase;
+	text-transform: uppercase;
 
-color: #000000;
+	color: #000000;
 
 }
 
 .footer-title{
 	font-family: 'Jost';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
-cursor: pointer;
-margin-top: -5px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	/* identical to box height */
+	cursor: pointer;
+	margin-top: -5px;
 
 
-color: #000000;
+	color: #000000;
 }
 
 .fab{
@@ -68,28 +68,28 @@ color: #000000;
 
 footer{
 	background: rgba(255, 255, 255, 0.9);
-border: 1px solid #E6E6E6;
-border-radius: 10px;
-padding:30px 22px;
+	border: 1px solid #E6E6E6;
+	border-radius: 10px;
+	padding:30px 22px;
 }
 
 
 @media screen and (max-width: 768px) {
 	.footer-container p {
 		color: #444444;
-	font-family: "jost";
-	font-size: 17px;
+		font-family: "jost";
+		font-size: 17px;
 	}
 	
 	.footer-container span {
 		font-family: 'Jost';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 26px;
-	text-decoration-line: underline;
-	
-	color: #444444;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 26px;
+		text-decoration-line: underline;
+		
+		color: #444444;
 	}
 	
 	/* .footer-container{
@@ -100,35 +100,34 @@ padding:30px 22px;
 	
 	.footer-heading{
 		font-family: 'Jost';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 26px;
-	/* identical to box height */
-	
-	text-transform: uppercase;
-	
-	color: #000000;
-	
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 26px;
+		/* identical to box height */
+		
+		text-transform: uppercase;
+		
+		color: #000000;
 	}
 }
 
 @media screen and (max-width: 1100px) and (min-width: 768px){
 	.footer-container p {
 		color: #444444;
-	font-family: "jost";
-	font-size: 16px;
+		font-family: "jost";
+		font-size: 16px;
 	}
 	
 	.footer-container span {
 		font-family: 'Jost';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 13px;
-	line-height: 26px;
-	/* text-decoration-line: underline; */
-	
-	color: #444444;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 26px;
+		/* text-decoration-line: underline; */
+		
+		color: #444444;
 	}
 	
 	/* .footer-container{
@@ -139,15 +138,15 @@ padding:30px 22px;
 	
 	.footer-heading{
 		font-family: 'Jost';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 26px;
-	/* identical to box height */
-	
-	text-transform: uppercase;
-	
-	color: #000000;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 26px;
+		/* identical to box height */
+		
+		text-transform: uppercase;
+		
+		color: #000000;
 	
 	}
 

@@ -12,7 +12,7 @@ import "./Card.css";
 export default function MediaCard({image,price,des}) {
   return (
     <div className='caard'>
-       <Card sx={{ maxWidth: 290 }}>
+       <Card sx={{ maxWidth: 350, m:'auto'}}>
       <CardMedia
         component="img"
         height="220"

@@ -2,10 +2,10 @@ h1{
     margin-bottom: 20px;
     color: #000000;
     font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 36px;
-font-family: 'Jost';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    font-family: 'Jost';
 }
 
 
@@ -13,11 +13,15 @@ ul li{
     color: #737373;
     margin-bottom: 16px;
     font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 29px;
-font-family: 'Jost';
-list-style-type: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    font-family: 'Jost';
+    list-style-type: none;
+}
+
+ul{
+    padding-left: 0px;
 }
 
 .table{

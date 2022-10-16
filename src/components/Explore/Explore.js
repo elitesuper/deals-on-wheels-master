@@ -26,18 +26,15 @@ const Explore = () => {
                 <Grid container spacing={5} justifyContent="center">
                     <Grid item md={6} xs={12} className="left" >
                         <h1 className='explore_heading'>Explore & Buy Our Metaverse <span className='nft'>NFTs</span></h1>
-                        <p>Explore thousands of cars NFTs in Metaverse<br/> using your smartphone, tablet or computer.</p>
+                        <p>Explore thousands of cars NFTs in Metaverse using your smartphone, tablet or computer.</p>
                         <Button variant="contained" className='btn'  endIcon={< ArrowDownwardIcon/>}>Explore Now</Button>
-                       
-
                     </Grid>
 
                     <Grid item md={6} xs={12} className="mobile-hidden" >
                         <div className='main-image-container'>
                             <div>
-                            <img className='img-one' src={ex1}/>
+                                <img className='img-one' src={ex1}/>
                             </div>
-                            
                             <div><img className='img-two' src={ex2}/></div>
                             <div> <img className='img-three' src={ex3}/></div>
                             <div> <img className='img-four' src={ex3}/></div>
@@ -45,12 +42,8 @@ const Explore = () => {
                                 <span>25k+</span>
                                 <p>Vistors bought cars & <br/>NFTs using our metaverse</p>
                             </div>
-                           
-                            
                         </div>
-
                     </Grid>
-
                 </Grid>
                 </div>
 
@@ -74,16 +67,9 @@ const Explore = () => {
 
                     </Grid>
                     <Button endIcon={<ArrowRightAltIcon/>} variant='contained' className='crd-btn'>View All NFTs</Button>
-                   
-                
 
                 </div>
-               
 
-
-                
-                
-                
             </Container>
             
         </div>

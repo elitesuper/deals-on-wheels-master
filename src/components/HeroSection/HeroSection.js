@@ -1,7 +1,6 @@
 import { Container } from '@mui/material';
 import React from 'react';
 import Grid from '@mui/material/Grid';
-// import { Button } from '../Button/Button';
 import Button from '@mui/material/Button';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import "./HeroSection.css";
@@ -16,11 +15,13 @@ const HeroSection = ({title,span}) => {
                 <div className='hero'>
                 <Grid container spacing={5}>
                     <Grid item md={6} xs={12}>
-                        <h1>{title}  <span className='meta'>{span}</span></h1>
-                        <p>explore thousands of cars in AR and 3D using<br/> your smartphone, tablet or computer.</p>
-                        <Button variant="contained" className='btn'  endIcon={< ArrowRightAltIcon/>}>Explore Now</Button>
-                       
-
+                        <div className="hero-info">
+                            <h1>{title}  <span className='meta'>{span}</span></h1>
+                            <p>explore thousands of cars in AR and 3D using your smartphone, tablet or computer.</p>
+                        </div>
+                        <div className="d-flex explorebtnlayout">
+                            <Button variant="contained" className='btn'  endIcon={< ArrowRightAltIcon/>}>Explore Now</Button>
+                        </div>
                     </Grid>
 
                     <Grid item md={6} xs={12}>

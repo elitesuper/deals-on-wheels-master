@@ -1,22 +1,20 @@
 /* left */
 .explore h1 {
     font-weight: 700;
-font-size: 60px;
-line-height: 70px;
-color: #000000;
-font-family: "jost";
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    font-family: "jost";
 }
 
 .explore p {
     font-family: 'Jost';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 32px;
-/* or 145% */
-
-
-color: #737373;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+    color: #737373;
     margin: 1.5rem 0;
 }
 
@@ -29,25 +27,22 @@ color: #737373;
     width: 210px !important;
     height: 50px !important;
     font-style: normal !important;
-font-weight: 700 !important;
-text-transform: capitalize !important;
-font-family: 'Jost' !important;
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+    font-family: 'Jost' !important;
 
 }
 
 .explore .btn {
     background-color:  #D95050;
-    /* width: 200px !important;
-    height: 50px !important; */
-    /* padding: 20px 60px; */
     font-size: 18px !important;
     font-style: normal;
-font-weight: 700;
+    font-weight: 700;
 
-line-height: 26px;
-/* identical to box height */
+    line-height: 26px;
+    /* identical to box height */
 
-text-align: center;
+    text-align: center;
 }
 
 
@@ -140,8 +135,8 @@ img{
     color: white;
     padding: 10px 20px;
     
-background: rgba(51, 196, 126, 0.95);
-border-radius: 10px;
+    background: rgba(51, 196, 126, 0.95);
+    border-radius: 10px;
 }
 
 .info p {
@@ -176,8 +171,8 @@ border-radius: 10px;
     transform: translateX(-50%);
     margin-top: 2rem;
     font-family: 'Jost';
-font-style: normal;
-text-transform: capitalize !important;
+    font-style: normal;
+    text-transform: capitalize !important;
 
 }
 @media screen and (max-width: 1024px) {
@@ -190,46 +185,41 @@ text-transform: capitalize !important;
     .mobile-hidden{
         display: none;
     }
-    .left{
+    .left h1{
         text-align: center !important;
     }
 
     .explore h1 {
         font-weight: 600;
-    font-size: 35px;
-    line-height: 50px;
-    color: #000000;
-    font-family: "jost";
+        font-size: 35px;
+        line-height: 50px;
+        color: #000000;
+        font-family: "jost";
     }
 
     .explore p {
         font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 25px;
-    /* or 145% */
-    
-    
-    color: #737373;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        /* or 145% */
+        color: #737373;
         margin: 1.5rem 0;
     }
     .explore .btn {
         background-color:  #D95050;
-        /* width: 200px !important;
-        height: 50px !important; */
-        /* padding: 20px 60px; */
         font-size: 15px !important;
         font-style: normal;
-    font-weight: 200 !important;
-    font-family: "jost" !important;
-    width: 155px !important;
-    height: 25px !important;
-    
-    line-height: 26px;
-    /* identical to box height */
-    
-    text-align: center;
+        font-weight: 200 !important;
+        font-family: "jost" !important;
+        width: 155px !important;
+        height: 25px !important;
+        
+        line-height: 26px;
+        /* identical to box height */
+        
+        text-align: center;
     }
 }
 
@@ -249,25 +239,24 @@ text-transform: capitalize !important;
     .left{
         text-align: center !important;
     }
-
     .explore h1 {
         font-weight: 600;
-    font-size: 45px;
-    line-height: 50px;
-    color: #000000;
-    font-family: "jost";
+        font-size: 45px;
+        line-height: 50px;
+        color: #000000;
+        font-family: "jost";
     }
 
     .explore p {
         font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    /* or 145% */
-    
-    
-    color: #737373;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        /* or 145% */
+        
+        
+        color: #737373;
         margin: 1.5rem 0;
     }
     .explore .btn {
@@ -277,15 +266,15 @@ text-transform: capitalize !important;
         /* padding: 20px 60px; */
         font-size: 17px !important;
         font-style: normal;
-    font-weight: 200 !important;
-    font-family: "jost" !important;
-    width: 170px !important;
-    height: 25px !important;
+        font-weight: 200 !important;
+        font-family: "jost" !important;
+        width: 170px !important;
+        height: 25px !important;
     
-    line-height: 26px;
-    /* identical to box height */
-    
-    text-align: center;
+        line-height: 26px;
+        /* identical to box height */
+        
+        text-align: center;
     }
 
 }

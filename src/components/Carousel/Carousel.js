@@ -43,28 +43,23 @@ function Carousel() {
     <>
     <Container>
     <Swiper
-    breakpoints={{
-      // when window width is >= 640px
-      640: {
-        
-        slidesPerView: 1,
-      },
-      768: {
-        
-        slidesPerView: 2,
-      },
-      // when window width is >= 768px
-      1100: {
-       
-        slidesPerView: 4,
-      },
-    }}
+        breakpoints={{
+          // when window width is >= 640px
+          640: {
+            
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 768px
+          1100: {
+           
+            slidesPerView: 4,
+          },
+        }}
          
-        // slidesPerView={slidesPerView}
         spaceBetween={20}
-        slidesPerGroup={1}
-        loop={true}
-        loopFillGroupWithBlank={true}
        
         navigation={true}
         modules={[Pagination, Navigation]}

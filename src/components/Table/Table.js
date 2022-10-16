@@ -14,7 +14,8 @@ const Table = () => {
         <div className='table'>
                 <h1>Our Top Selling Brands</h1>
                 <Grid container spacing={1} >
-                    <Grid item md={2} xs={6}>
+                    <Grid item md={2} sm={4} xs={6}>
+                        <div className ="d-flex justify-content-center">
                         <ul>
                             <li>Acura</li>
                             <li>Audi</li>
@@ -22,67 +23,64 @@ const Table = () => {
                             <li>Cadillac</li>
                             <li>Chevrolet</li>
                         </ul>
-                        <hr/>
+                        </div>
                     </Grid>
-                    <Grid item md={2} xs={6}>
-                    <ul>
-                            <li>Acura</li>
-                            <li>Audi</li>
-                            <li>BMW</li>
-                            <li>Cadillac</li>
-                            <li>Chevrolet</li>
-                        </ul>
-                        <hr/>
+                    <Grid item md={2} sm={4} xs={6}>
+                        <div className ="d-flex justify-content-center">
+                            <ul>
+                                <li>Acura</li>
+                                <li>Audi</li>
+                                <li>BMW</li>
+                                <li>Cadillac</li>
+                                <li>Chevrolet</li>
+                            </ul>
+                        </div>
                     </Grid>
-                    <Grid item md={2} xs={6}>
-                    <ul>
-                            <li>Acura</li>
-                            <li>Audi</li>
-                            <li>BMW</li>
-                            <li>Cadillac</li>
-                            <li>Chevrolet</li>
-                        </ul>
-                        <hr/>
+                    <Grid item md={2} sm={4} xs={6}>
+                        <div className ="d-flex justify-content-center">
+                            <ul>
+                                <li>Acura</li>
+                                <li>Audi</li>
+                                <li>BMW</li>
+                                <li>Cadillac</li>
+                                <li>Chevrolet</li>
+                            </ul>
+                        </div>
                     </Grid>
-                    <Grid item md={2} xs={6}>
-                    <ul>
-                            <li>Acura</li>
-                            <li>Audi</li>
-                            <li>BMW</li>
-                            <li>Cadillac</li>
-                            <li>Chevrolet</li>
-                        </ul>
-                        <hr/>
+                    <Grid item md={2} sm={4} xs={6}>
+                        <div className ="d-flex justify-content-center">
+                            <ul>
+                                <li>Acura</li>
+                                <li>Audi</li>
+                                <li>BMW</li>
+                                <li>Cadillac</li>
+                                <li>Chevrolet</li>
+                            </ul>
+                        </div>
                     </Grid>
-                    <Grid item md={2} xs={6}>
-                    <ul>
-                            <li>Acura</li>
-                            <li>Audi</li>
-                            <li>BMW</li>
-                            <li>Cadillac</li>
-                            <li>Chevrolet</li>
-                        </ul>
-                        <hr/>
+                    <Grid item md={2} sm={4} xs={6}>
+                        <div className ="d-flex justify-content-center">
+                            <ul>
+                                <li>Acura</li>
+                                <li>Audi</li>
+                                <li>BMW</li>
+                                <li>Cadillac</li>
+                                <li>Chevrolet</li>
+                            </ul>
+                        </div>
                     </Grid>
-                    <Grid item md={2} xs={6}>
-                    <ul>
-                            <li>Acura</li>
-                            <li>Audi</li>
-                            <li>BMW</li>
-                            <li>Cadillac</li>
-                            <li>Chevrolet</li>
-                        </ul>
-                        <hr/>
+                    <Grid item md={2} sm={4} xs={6}>
+                        <div className ="d-flex justify-content-center">
+                            <ul>
+                                <li>Acura</li>
+                                <li>Audi</li>
+                                <li>BMW</li>
+                                <li>Cadillac</li>
+                                <li>Chevrolet</li>
+                            </ul>
+                        </div>
                     </Grid>
-                  
-                    
-
                 </Grid>
-             
-                
-                
-                
-            
                 <Button className='btn__table' onClick={()=>navigate("/brands")} endIcon={<ArrowRightIcon/>}>Browse All Brands</Button>
         </div>
             </Container>
