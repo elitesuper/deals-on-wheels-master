@@ -20,16 +20,12 @@ const Blogs = () => {
                 <h2 className='blogs_heding' style={{marginLeft:"18px",}}>Blogs</h2>
 
                 <Grid container spacing={2}>
-                    <Grid item lg={9}>
+                    <Grid item lg={9} md={8}>
                         <BlogSection/>
                         <div style={{marginTop:"35px"}}><BlogSection/></div>
                         <div style={{marginTop:"35px"}}><BlogSection/></div>
                     </Grid>
-
-
-
-
-                    <Grid item lg={3}>
+                    <Grid item lg={3} md={4}>
                         <div className='card-left-blog'>
                             <p className='left-head'>Recent Posts</p>
                             <Grid container  spacing={2} >
