@@ -8,7 +8,7 @@ import "./TeamCard.css";
 
 export default function TeamCard({name,desc,phone,site,image}) {
   return (
-    <Card sx={{ maxWidth: 345 }} className="team-card">
+    <Card sx={{ maxWidth: 345, m:'auto' }} className="team-card">
       <CardActionArea>
         <CardMedia
           component="img"

@@ -20,14 +20,14 @@ const Footer = () => {
 							<p className='footer-time'><span style={{fontWeight:"bold"}}>Fri :</span> 04:00 PM to 12:00 AM</p>
 							<p className='footer-time'><span style={{fontWeight:"bold"}}>Sat - Sun :</span> 09:00 AM to 12:00 PM</p>
 						</Grid>
-						<Grid item lg={2} md={3} sm={6}  xs={12}>
+						<Grid item lg={2} md={3} sm={6}  xs={6}>
 							<p className='footer-heading'>NAVIGATION</p>
 							<p className='footer-title'>Home</p>
 							<p className='footer-title'>About us</p>
 							<p className='footer-title'>Blogs</p>
 							<p className='footer-title'>View in Metaverse</p>
 						</Grid>
-						<Grid item lg={2} md={3} sm={6}  xs={12}>
+						<Grid item lg={2} md={3} sm={6}  xs={6}>
 							<p className='footer-heading'>USEFULL LINKS</p>
 							<p className='footer-title'>Browse Cars</p>
 							<p className='footer-title'>Conatct Us</p>

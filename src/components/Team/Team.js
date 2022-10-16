@@ -17,34 +17,26 @@ const Team = () => {
                 <Grid container spacing={2}  marginTop={6}>
                     <Grid item xs={12} sm={6} md={4} lg={4}>
                         <TeamCard image={team1} name={"Frank Nava"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>
-
                     </Grid>
 
                     <Grid item xs={12} sm={6} md={4} lg={4}>
-                    <TeamCard image={team2} name={"Julius Boncatto"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>
-                        
+                        <TeamCard image={team2} name={"Julius Boncatto"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>
                     </Grid>
 
                     <Grid item xs={12} sm={6} md={4} lg={4}>
-                    <TeamCard image={team3} name={"Aisha"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>
-                        
+                        <TeamCard image={team3} name={"Aisha"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>          
                     </Grid>
 
                     <Grid item xs={12} sm={6} md={4}>
                         <TeamCard image={team1} name={"Frank Nava"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>
-
                     </Grid>
 
                     <Grid item xs={12} sm={6} md={4}>
-                    <TeamCard image={team2} name={"Julius Boncatto"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>
-                        
+                        <TeamCard image={team2} name={"Julius Boncatto"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>
                     </Grid>
 
-                  
-
                     <Grid item xs={12} sm={6} md={4}>
-                         <TeamCard image={team3} name={"Aisha"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>
-    
+                        <TeamCard image={team3} name={"Aisha"} desc={"Sales & Purchases, Customer Service"} phone={"+1 123456 78900"} site={"franknava@dealsonwheels.com"}/>
                      </Grid>
 
                 </Grid>

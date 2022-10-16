@@ -1,18 +1,15 @@
 .team h2 {
     font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 35px;
-line-height: 51px;
-/* identical to box height */
-
-
-color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 51px;
+    color: #000000;
 }
 
 @media screen and (max-width: 768px) {
     .team h2 {
-       text-align: left;
+       text-align: center;
     }
 }
 

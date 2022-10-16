@@ -25,10 +25,6 @@ const AboutUs = () => {
             <Team/>
             <Contact/>
             <Footer/>
-            
-            
-            
-            
         </div>
     );
 };
