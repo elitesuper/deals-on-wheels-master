@@ -19,15 +19,15 @@ const Blogs = () => {
             <Container  sx={{marginTop:"2rem"}}>
                 <h2 className='blogs_heding' style={{marginLeft:"18px",}}>Blogs</h2>
 
-                <Grid container spacing={2}>
-                    <Grid item lg={9} md={8}>
+              <div className="row">
+                <div className="col-lg-9 col-md-8">
                         <BlogSection/>
                         <div style={{marginTop:"35px"}}><BlogSection/></div>
                         <div style={{marginTop:"35px"}}><BlogSection/></div>
-                    </Grid>
-                    <Grid item lg={3} md={4}>
+                    </div>
+                    <div className="col-lg-3 col-md-4">
                         <div className="row blog-other-info">
-                            <div className='card-left-blog col-sm-12 col-md-12 col-lg-12'>
+                            <div className='card-left-blog col-12'>
                                 <p className='left-head'>Recent Posts</p>
                                 <div className="row post-list">
                                     <div className="blog-item d-flex mb-2 ">
@@ -77,7 +77,7 @@ const Blogs = () => {
 
                                 </div>
                             </div>
-                            <div className='card-left-blog col-sm-6 col-md-6 col-lg-12' style={{marginTop:"15px"}}>
+                            <div className='card-left-blog col-md-12 col-sm-6' style={{marginTop:"15px"}}>
                                 <p className='left-head'>Luxury Cars</p>
                                 <p style={{marginTop:"-12px"}} className='title_little_blog'>2022 Tesla Model Y</p>
                                 <p style={{marginTop:"-12px"}} className='title_little_blog'>Ferrari 296 GTB</p>
@@ -88,7 +88,7 @@ const Blogs = () => {
                                 <p style={{marginTop:"-12px"}} className='title_little_blog'>Aston Martin Valkyrie</p>
                                 <p style={{marginTop:"-12px"}} className='title_little_blog'>Bugatti Veyron 16.4</p>
                             </div>
-                            <div className='card-left-blog col-sm-6 col-md-6 col-lg-12' style={{marginTop:"15px"}}>
+                            <div className='card-left-blog col-md-12 col-sm-6' style={{marginTop:"15px"}}>
                                 <p className='left-head'>Categories</p>
                                 <p style={{marginTop:"-12px"}} className='title_little_blog'>Cars in Metaverse</p>
                                 <p style={{marginTop:"-12px"}} className='title_little_blog'>Augmented Virtual Reality in Automotive</p>
@@ -100,10 +100,9 @@ const Blogs = () => {
                                 <p style={{marginTop:"-12px"}} className='title_little_blog'>Trending Automotive Technology</p>
                             </div>
                         </div>
+                    </div>
 
-                    </Grid>
-
-                </Grid>
+                </div>
                 
                
                 

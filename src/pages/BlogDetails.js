@@ -19,8 +19,8 @@ const BlogDetails = () => {
             <Navbar/>
 
             <Container sx={{marginTop:"3rem"}}>
-              <Grid container>
-                <Grid sx={{padding:"20px"}} item lg={9}>
+              <div className="row">
+                <div style={{padding:"20px"}} className="col-lg-9 col-md-8">
                     <p className='bt-title'>These are the 10 Most Popular Vehicles of 2022</p>
                     <p className='bt-date'>Jun 25, 2022</p>
                     <div className='bt-img'>
@@ -61,101 +61,87 @@ More than 140,000 Ford F-Series trucks have already been sold, and the year isn�
 
 It’s doubtful that any model will outsell the F-Series; if it hasn’t happened in about four decades, 2022 probably isn’t going to be the outlier year. Will the CR-V end up in the top five again? Will the Silverado overtake the Ram? Could there be a vehicle shortage that affects 2022 sales? Consumers will have to wait until the year’s end to find out what cars were the most popular in 2022 and which models sank in sales.
                      </p>
+                </div>
 
-
-                </Grid>
-
-                <Grid item lg={3}>
-                        <div className='card-left-blog'>
+                <div className="col-lg-3 col-md-4">
+                    <div className="row blog-other-info">
+                        <div className='card-left-blog col-12 '>
                             <p className='left-head'>Recent Posts</p>
-                            <Grid container spacing={2} >
-                                <Grid item lg={3} sm={12} xs={12}>
+                            <div className="row post-list">
+                                <div className="blog-item d-flex mb-2 ">
                                     <img className='img-blog-little' src={bloglittle}/>
-                                </Grid>
-                                <Grid item lg={9} sm={12} xs={12}>
-                                    <p className='title_little_blog'>These are the 10 Most Popular Vehicles of 2022</p>
-                                </Grid>
-
-                                <Grid item lg={3} sm={12} xs={12} marginTop="-1rem">
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
                                     <img className='img-blog-little' src={bloglittle}/>
-                                </Grid>
-                                <Grid item lg={9} sm={12} xs={12} marginTop="-1rem">
-                                    <p className='title_little_blog'>These are the 10 Most Popular Vehicles of 2022</p>
-                                </Grid>
-
-                                <Grid item lg={3} sm={12} xs={12} marginTop="-1rem">
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
                                     <img className='img-blog-little' src={bloglittle}/>
-                                </Grid>
-                                <Grid item lg={9}  sm={12} xs={12} marginTop="-1rem">
-                                    <p className='title_little_blog'>These are the 10 Most Popular Vehicles of 2022</p>
-                                </Grid>
-
-                                <Grid item lg={3} sm={12} xs={12} marginTop="-1rem">
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
                                     <img className='img-blog-little' src={bloglittle}/>
-                                </Grid>
-                                <Grid item lg={9} sm={12} xs={12} marginTop="-1rem">
-                                    <p className='title_little_blog'>These are the 10 Most Popular Vehicles of 2022</p>
-                                </Grid>
-
-                                <Grid item lg={3} sm={12} xs={12} marginTop="-1rem">
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
                                     <img className='img-blog-little' src={bloglittle}/>
-                                </Grid>
-                                <Grid item lg={9} sm={12} xs={12} marginTop="-1rem">
-                                    <p className='title_little_blog'>These are the 10 Most Popular Vehicles of 2022</p>
-                                </Grid>
-
-
-                                <Grid item lg={3} sm={12} xs={12} marginTop="-1rem">
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
                                     <img className='img-blog-little' src={bloglittle}/>
-                                </Grid>
-                                <Grid item lg={9} sm={12} xs={12} marginTop="-1rem">
-                                    <p className='title_little_blog'>These are the 10 Most Popular Vehicles of 2022</p>
-                                </Grid>
-                            </Grid>
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
+                                    <img className='img-blog-little' src={bloglittle}/>
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
+                                    <img className='img-blog-little' src={bloglittle}/>
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
+                                    <img className='img-blog-little' src={bloglittle}/>
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
+                                    <img className='img-blog-little' src={bloglittle}/>
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+                                <div className="blog-item d-flex mb-2">
+                                    <img className='img-blog-little' src={bloglittle}/>
+                                    <p className='title_little_blog blog-title'>These are the 10 Most Popular Vehicles of 2022</p>
+                                </div>
+
+                            </div>
                         </div>
-
-                        <div className='card-left-blog' style={{marginTop:"15px"}}>
+                        <div className='card-left-blog col-md-12 col-sm-6' style={{marginTop:"15px"}}>
                             <p className='left-head'>Luxury Cars</p>
-                            
-                               
-                               
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>2022 Tesla Model Y</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Ferrari 296 GTB</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Porche 718 Cayman GT4 RS</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Lamborghini Huracan Evo RWD Spyder</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Fenyr Supersport</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Maserati  MC20 Cielo</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Aston Martin Valkyrie</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Bugatti Veyron 16.4</p>
-                                
-
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>2022 Tesla Model Y</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Ferrari 296 GTB</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Porche 718 Cayman GT4 RS</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Lamborghini Huracan Evo RWD Spyder</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Fenyr Supersport</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Maserati  MC20 Cielo</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Aston Martin Valkyrie</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Bugatti Veyron 16.4</p>
                         </div>
-
-                        
-                        <div className='card-left-blog' style={{marginTop:"15px"}}>
+                        <div className='card-left-blog col-md-12 col-sm-6' style={{marginTop:"15px"}}>
                             <p className='left-head'>Categories</p>
-                            
-                               
-                               
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Cars in Metaverse</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Augmented Virtual Reality in Automotive</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Cars Trending</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Trending Automotive Technology</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Cars in Metaverse</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Augmented Virtual Reality in Automotive</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Cars Trending</p>
-                                    <p style={{marginTop:"-12px"}} className='title_little_blog'>Trending Automotive Technology</p>
-                                
-
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Cars in Metaverse</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Augmented Virtual Reality in Automotive</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Cars Trending</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Trending Automotive Technology</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Cars in Metaverse</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Augmented Virtual Reality in Automotive</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Cars Trending</p>
+                            <p style={{marginTop:"-12px"}} className='title_little_blog'>Trending Automotive Technology</p>
                         </div>
+                    </div>  
 
-                       
-                        
-                        
+                </div>
 
-                    </Grid>
-
-               </Grid>
+               </div>
                <div style={{marginTop:"5rem"}}>
                <Footer/>
                </div>
