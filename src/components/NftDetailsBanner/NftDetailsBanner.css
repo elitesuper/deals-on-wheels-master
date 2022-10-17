@@ -226,10 +226,6 @@ margin-top: 2rem;
     color: #336DC4 !important;
     }
 
-    .nft-bnner-text{
-        flex-direction: column;
-    }
-
     .nft-det-bnner-btn{
         width: 100%;
     height: 35px;
@@ -295,6 +291,10 @@ margin-top: 2rem;
 }
 .nft-det-img-container{
     margin-bottom: 20px;
+    display: flex;
+}
+.nft-det-img-container img{
+    margin: auto;
 }
 .price_eth h6 {
     font-family: 'Font Awesome 6 Brands';
@@ -324,10 +324,11 @@ color: #000000;
 
 @media screen and (max-width:900px) and (min-width:580px){
     .nft-det-img-container{
-        width: 600px;
-        height: 600px;
-        transform: translateX(2rem);
         margin-bottom: 20px;
+        display: flex;
+    }
+    .nft-det-img-container img{
+        margin: auto;
     }
 
     .h6_nft-det{
