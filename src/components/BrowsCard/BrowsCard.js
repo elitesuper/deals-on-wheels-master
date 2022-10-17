@@ -16,43 +16,45 @@ const BrowsCard = ({ carData }) => {
   const navigate = useNavigate();
   return (
     <div className="hero-card-br">
-      <div className="brcard">
-        <div className="bgcard__img">
+      <div className="brcard row">
+        <div className="col-lg-4 col-md-4 col-sm-12">
           <img src={image} />
         </div>
 
-        <div className="bgcard__content">
-          <div className="bgcard__info">
-            <h3>{name}</h3>
-            <p>{price}</p>
-          </div>
+        <div className="col-lg-8 col-md-8 col-sm-12 d-flex">
+          <div className="bgcard__content">
+            <div className="bgcard__info">
+              <h3>{name}</h3>
+              <p>{price}</p>
+            </div>
 
-          <div className="bgcard__vin">
-            <p>VIN : JTEKQ5JR4M5931366 | Stock : 36205F</p>
-          </div>
+            <div className="bgcard__vin">
+              <p>VIN : JTEKQ5JR4M5931366 | Stock : 36205F</p>
+            </div>
 
-          <div className="bgcard__feature">
-            <p>Odometer : 15,988KM</p>
-            <p>Exterior : Magnetic Grey</p>
-            <p className="dont">Exterior : Magnetic Grey</p>
-          </div>
+            <div className="bgcard__feature">
+              <p>Odometer : 15,988KM</p>
+              <p>Exterior : Magnetic Grey</p>
+              <p className="dont">Exterior : Magnetic Grey</p>
+            </div>
 
-          <div className="bgcard__feature2">
-            <p>Interior : Grey</p>
-            <p>Drive Type : 4-Wheel Drive</p>
-            <p className="dont">Body Style : Sport</p>
-          </div>
+            <div className="bgcard__feature2">
+              <p>Interior : Grey</p>
+              <p>Drive Type : 4-Wheel Drive</p>
+              <p className="dont">Body Style : Sport</p>
+            </div>
 
-          <div className="bgcard__btns">
-            <button className="bg-btn bg-btn1">Contact Us</button>
-            <button className="bg-btn bg-btn2">Test Drive</button>
-            <button
-              onClick={() => navigate(`/browscars/${id}`)}
-              className="bg-btn bg-btn3"
-            >
-              View Details
-            </button>
-            <button className="bg-btn bg-btn4">View in Metaverse</button>
+            <div className="bgcard__btns">
+              <button className="bg-btn bg-btn1">Contact Us</button>
+              <button className="bg-btn bg-btn2">Test Drive</button>
+              <button
+                onClick={() => navigate(`/browscars/${id}`)}
+                className="bg-btn bg-btn3"
+              >
+                View Details
+              </button>
+              <button className="bg-btn bg-btn4">View in Metaverse</button>
+            </div>
           </div>
         </div>
       </div>

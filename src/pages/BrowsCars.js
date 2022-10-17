@@ -21,21 +21,17 @@ const BrowsCars = () => {
 
             <Grid container spacing={2} marginTop="3rem" marginBottom="4rem" paddingLeft={2} paddingRight={2}>
                 <Grid item  lg={3} md={12} xs={12} sm={12}>
-                <AccordionCheck/>
+                    <AccordionCheck/>
                 </Grid>
-
                 <Grid item lg={9} md={12} sm={12}xs={12}>
                     {
                         cars.map((car) =>(
                             <div key={car.id}>
-                            <BrowsCard carData={car}/>
+                                <BrowsCard carData={car}/>
                             </div>
                         ))
                     }
-                   
-
                 </Grid>
-
             </Grid>
 
             <Footer/>

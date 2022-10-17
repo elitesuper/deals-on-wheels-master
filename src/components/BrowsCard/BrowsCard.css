@@ -1,17 +1,20 @@
 .brcard {
-  height: 260px;
   background-color: rebeccapurple;
-
   background: #ffffff;
   border: 1px solid #dedede;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
   padding: 10px;
-
+  max-width: 1000px;
   margin-bottom: 25px;
+  margin: auto;
 }
-
+.bgcard__content {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+}
 .bgcard__info h3 {
   font-family: "Jost";
   font-style: normal;
@@ -38,11 +41,14 @@
   border-radius: 5px;
 }
 
+.brcard div img{
+  border-radius: 5px;
+}
+
 .bgcard__info {
   /* background-color: red; */
-  width: 470px;
   display: flex;
-  margin-top: 12px;
+  /* margin-top: 12px; */
   justify-content: space-between;
 }
 
@@ -156,9 +162,9 @@
 /* responsive */
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
   .brcard {
-    width: 420px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -183,7 +189,9 @@
 
   }
   .bgcard__content {
-    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
   }
   .bgcard__feature {
     margin-top: 0;
@@ -221,7 +229,7 @@
   }
 
   .brcard {
-    width: 70%;
+    width: 100%;
     height: auto;
     background-color: rebeccapurple;
     margin: auto;

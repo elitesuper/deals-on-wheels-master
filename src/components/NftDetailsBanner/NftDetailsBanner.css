@@ -298,12 +298,11 @@ margin-top: 2rem;
 }
 .price_eth h6 {
     font-family: 'Font Awesome 6 Brands';
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-line-height: 23px;
-
-color: #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
 }
 .fa-ethereum{
     transform: scale(1.1);
