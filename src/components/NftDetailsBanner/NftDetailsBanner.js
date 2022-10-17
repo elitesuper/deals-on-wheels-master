@@ -25,9 +25,6 @@ const NftDetailsBanner = () => {
                                 </div>
                             </Grid>
 
-
-
-
                             <Grid item lg={6} md={6} sm={12} xs={12}>
                                 <Grid container justifyContent="center">
                                     <Grid item lg={12} md={12} sm={12} xs={12}>
@@ -37,8 +34,6 @@ const NftDetailsBanner = () => {
                                             <i style={{marginRight:"4px"}} className="fa-solid fa-share"></i>
                                             <FavoriteBorderIcon/>
                                             </div>
-
-                                           
                                         </div>
                                     </Grid>
 
@@ -60,12 +55,10 @@ const NftDetailsBanner = () => {
                                     </Grid>
 
 
-
                                     <Grid item lg={12} md={12} sm={4} xs={12}>
                                         <button className='nft-det-bnner-btn'>Buy Now</button>
 
                                     </Grid>
-
 
 
                                     <Grid item lg={12}>

@@ -20,31 +20,23 @@ const NftDetails = () => {
 
            
             <div style={{marginTop:"60px",marginBottom:"10rem"}}>
-           <Container>
-            <h2 className='realted_nft_heading' >Related NFTs</h2>
-            <Grid justifyContent="center" container spacing={1}>
-                <Grid item lg={3}>
-                    <CardExplore/>
-
-                </Grid>
-
-                <Grid item lg={3}>
-                <CardExplore/>
-
-                </Grid>
-
-                <Grid item lg={3}>
-                <CardExplore/>
-
-                </Grid>
-
-                <Grid item lg={3}>
-                <CardExplore/>
-
-                </Grid>
-
-            </Grid>
-           </Container>
+                <Container>
+                    <h2 className='realted_nft_heading' >Related NFTs</h2>
+                    <Grid justifyContent="center" container spacing={1}>
+                        <Grid item lg={3}>
+                            <CardExplore/>
+                        </Grid>
+                        <Grid item lg={3}>
+                            <CardExplore/>
+                        </Grid>
+                        <Grid item lg={3}>
+                            <CardExplore/>
+                        </Grid>
+                        <Grid item lg={3}>
+                            <CardExplore/>
+                        </Grid>
+                    </Grid>
+                </Container>
             </div>
 
             <div style={{margingTop:"60px"}}>

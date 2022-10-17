@@ -13,16 +13,16 @@ color: #336DC4 !important;
     font-size: 20px;
     margin-right: -10px !important;
 }
-
+/* 
 .nft-det-img-container{
     width: 500px;
     height: 500px;
 }
-
+ */
 .nft-det-img-container img {
     border-radius: 5px;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+/*     height: 100%; */
 }
 
 .h6_nft-det{
@@ -59,13 +59,13 @@ color: #4D4D4D;
 }
 
 .price_eth h6 {
-    font-family: 'Font Awesome 6 Brands';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 25px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 }
 .price_eth p {
     color: #747474;
@@ -212,14 +212,6 @@ margin-top: 2rem;
 
 
 @media screen and (max-width: 1024px) {
-    .nft-det-img-container{
-        width: 350px;
-        height: 350px;
-        transform: translateX(58px);
-        
-        
-        
-    }
     .price_eth{
         margin-top: 2px;
         margin-left: 5px;
@@ -302,9 +294,6 @@ margin-top: 2rem;
     text-align: center;
 }
 .nft-det-img-container{
-    width: 300px;
-    height: 300px;
-    transform: translateX(2rem);
     margin-bottom: 20px;
 }
 .price_eth h6 {
@@ -366,4 +355,6 @@ color: #000000;
     
     } 
 }
-    
+.nft-det-des-container div p{
+    margin-bottom: 10px;
+}

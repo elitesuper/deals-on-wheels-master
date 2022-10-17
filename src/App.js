@@ -16,9 +16,6 @@ function App() {
  
   return (
     <div className="App">
-    
-
-    
 
       <Routes>
        <Route path="/" element={<HomePage/>} />
@@ -33,24 +30,6 @@ function App() {
         <Route path="/blogs/:id" element={<BlogDetails/>}/>
       </Routes>
 
-
-      {/* <Carousel/> */}
-
-     
-      
-
-     
-
-    
-
-    
-      
-      
-      
-
-      
-    
-     
     </div>
   );
 }
