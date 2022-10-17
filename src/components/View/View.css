@@ -8,10 +8,21 @@
 }
 
 .view__text{
-    position: absolute;
+   position: absolute;
    left: 2rem;
    bottom: 2rem;
-   
+   max-width: 500px;
+}
+.view__text-2 {
+    width: 80vw;
+    display: none;
+}
+.view__text-2 h2{
+    color: black;
+    font-family: 'Jost';
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
 }
 
 .view__text h2{
@@ -44,8 +55,20 @@
     padding: 8px 15px !important;
     font-family: 'Jost' !important;
     font-style:  normal !important;
+    max-width: 200px;
 }
 
+.meta{
+    color: #D95050;
+}
+@media screen and (max-width: 800px){
+    .view-hero{
+        display: none;
+    }
+    .view__text-2{
+        display: block;
+    }
+}
 
 
 
@@ -101,8 +124,6 @@
   
 }
 
-
-
 @media screen and (max-width:370px) {
     .view__text h2{
         color:#FFFFFF;
@@ -137,4 +158,3 @@
     }
     
 }
-    
