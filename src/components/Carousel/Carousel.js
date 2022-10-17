@@ -49,7 +49,7 @@ function Carousel() {
             
             slidesPerView: 1,
           },
-          768: {
+          700: {
             slidesPerView: 2,
           },
           // when window width is >= 768px

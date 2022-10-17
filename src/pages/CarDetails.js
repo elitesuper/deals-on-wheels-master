@@ -26,11 +26,8 @@ const CarDetails = ({props}) => {
           <CarDetailsInfo/>
           <Pics name={"Similar Vehicles"}/>
           <div style={{marginTop:"10rem"}}>
-          <Footer/>
+            <Footer/>
           </div>
-          
-          
-            
         </div>
     );
 };

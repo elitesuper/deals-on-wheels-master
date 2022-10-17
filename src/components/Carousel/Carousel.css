@@ -67,14 +67,12 @@ body {
 
 @media screen and (max-width: 768px) {
   .swiper-button-next:after{
-    transform: translateX(-10px);
+    transform: translateX(10px);
   }
 
   .swiper-button-prev:after{
-    transform: translateX(-15px);
+    transform: translateX(-10px);
   }
  
   
 }
-  
-
