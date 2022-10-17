@@ -25,7 +25,7 @@ function Carousel() {
             }else{
                 setSwiper(false)
             }
-       window.addEventListener("resize",()=>{ if(window.innerWidth < 768){
+        window.addEventListener("resize",()=>{ if(window.innerWidth < 768){
         setSwiper(true)
     }else{
         setSwiper(false)
@@ -53,6 +53,9 @@ function Carousel() {
             slidesPerView: 2,
           },
           // when window width is >= 768px
+          900:{
+            slidesPerView: 3,
+          },
           1100: {
            
             slidesPerView: 4,
