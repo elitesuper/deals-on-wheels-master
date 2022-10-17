@@ -13,16 +13,10 @@ const BrandsPage = () => {
     return (
         <div className='back'>
             <Container>
-            <Navbar/>
-            <Brands/>
-            <Footer/>
-
-            
-
+                <Navbar/>
+                <Brands/>
+                <Footer/>
             </Container>
-
-        
-            
         </div>
     );
 };
