@@ -156,7 +156,6 @@
 /* responsive */
 
 
-
 @media screen and (max-width: 850px) {
   .brcard {
     width: 420px;
@@ -168,27 +167,20 @@
     left: 0rem;
     margin-top: 20px;
   }
-  /* .bgcard__img {
-    width: 300px;
-    transform: translateX(40px);
-  } */
+  
   .bgcard__info {
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
 
-    /* background-color: red; */
   }
   .bgcard__info p {
     width: 100%;
     display: block;
     font-size: 17px;
     text-align: center;
-    /* transform: translateX(-8%); */
-    /* margin: auto; */
-    /* margin-left: 2rem; */
-    /* background-color: red; */
+
   }
   .bgcard__content {
     margin-left: 0;
@@ -224,9 +216,6 @@
     font-size: 15px !important;
     line-height: 32px;
     text-align: center;
-    /* margin-left: 20px; */
-    /* identical to box height */
-    /* transform: translateX(-8%); */
 
     color: #000000;
   }
@@ -242,7 +231,6 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
-    /* padding: 10px; */
 
     margin-bottom: 25px;
   }
@@ -252,7 +240,6 @@
     height: auto !important;
     background-color: #ffffff;
     padding: 2px;
-    /* transform: translateX(3%); */
     margin: 0 auto;
   }
   .bgcard__img img {
@@ -260,27 +247,9 @@
     height: 100%;
     border-radius: 5px;
   }
-  /* .bgcard__img {
-    width: 400px;
-    height: 300px !important;
-    background-color: #ffffff;
-    padding: 2px;
-    transform: translateX(3%);
-    margin: 0 auto;
-    margin-top: 20px;
-  } */
 
-  .bgcard__info p {
-    /* font-size: 18px;
-    text-align: center; */
-
-    /* transform: translateX(8.5rem); */
-  }
-
-  .bgcard__info h3 {
-    /* transform: translateX(8.5rem); */
-  }
 }
+
 
 /* @media screen and (max-width: 813px) and (min-width: 551px) {
   .bgcard__info p {

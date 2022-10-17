@@ -9,7 +9,6 @@ height: 50px !important;
 @media screen and (max-width: 768px) {
     .MuiAutocomplete-hasPopupIcon.css-1p54uo5-MuiAutocomplete-root .MuiOutlinedInput-root, .MuiAutocomplete-hasClearIcon.css-1p54uo5-MuiAutocomplete-root .MuiOutlinedInput-root {
         height: 50px !important;
-        width: 150px !important;
     }
 }
     

@@ -15,8 +15,6 @@ const NftPage = () => {
         <div>
             <Navbar/>
             <NftContent/>
-            
-            
         </div>
     );
 };

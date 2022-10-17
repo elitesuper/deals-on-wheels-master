@@ -15,118 +15,44 @@ const NftContent = () => {
                     <div className='nft-auto-complete'>
                         <AutoComplete/>
                     </div>
-
                 </div>
 
-
                 <Grid container spacing={2} className="card_nft">
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-
-
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
                     </Grid>
-
-                    <Grid item  lg={3}>
+                    <Grid item  lg={3} md={4}>
                         <CardExplore nft={"NFT"}/>
-
-                    </Grid>
-
-
-
-
-                    <Grid item  lg={3}>
-                        <CardExplore nft={"NFT"}/>
-
-                    </Grid>
-
-                    <Grid item  lg={3}>
-                        <CardExplore nft={"NFT"}/>
-
-                    </Grid>
-
-                    <Grid item  lg={3}>
-                        <CardExplore nft={"NFT"}/>
-
-                    </Grid>
-
-                    <Grid item  lg={3}>
-                        <CardExplore nft={"NFT"}/>
-
-                    </Grid>
-
-
-
-                    <Grid item  lg={3}>
-                        <CardExplore nft={"NFT"}/>
-
-                    </Grid>
-
-                    <Grid item  lg={3}>
-                        <CardExplore nft={"NFT"}/>
-
-                    </Grid>
-
-                    <Grid item  lg={3}>
-                        <CardExplore nft={"NFT"}/>
-
-                    </Grid>
-
-                    <Grid item  lg={3}>
-                        <CardExplore nft={"NFT"}/>
-
                     </Grid>
                 </Grid>
 
