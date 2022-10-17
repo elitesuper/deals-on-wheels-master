@@ -52,10 +52,12 @@
     color: #000000;
 
 }
-
+.blog-other-info{
+    padding-left : 1rem;
+    padding-right : 1rem;
+}
 @media screen and (max-width:1200px) {
     .card-left-blog{
-        width: 90%;
         background: #FFFFFF;
         border: 1px solid #DEDEDE;
         border-radius: 10px;
