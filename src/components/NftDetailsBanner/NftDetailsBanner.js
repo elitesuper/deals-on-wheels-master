@@ -34,7 +34,7 @@ const NftDetailsBanner = () => {
                                         <div className='nft-bnner-text' style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
                                             <p className='h6_nft-det'>Formula 1 Race Cars Compilation</p>
                                             <div style={{display:"flex", alignItems:"center"}}>
-                                            <i style={{marginRight:"4px"}} class="fa-solid fa-share"></i>
+                                            <i style={{marginRight:"4px"}} className="fa-solid fa-share"></i>
                                             <FavoriteBorderIcon/>
                                             </div>
 
@@ -52,7 +52,7 @@ const NftDetailsBanner = () => {
 
                                     <Grid item lg={12} md={12} sm={4} xs={6}>
                                         <div className='price_eth'>
-                                         <i class="fa-brands fa-ethereum"></i>
+                                         <i className="fa-brands fa-ethereum"></i>
                                          <h6>15.77</h6>
                                          <p>($999.99)</p>
                                         </div>

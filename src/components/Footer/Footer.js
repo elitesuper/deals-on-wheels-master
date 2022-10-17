@@ -14,27 +14,32 @@ const Footer = () => {
 			<footer>
 				<div className='footer-container'>
 					<Grid container  spacing={1}  rowSpacing={6}>
-						<Grid  item lg={4} md={3} sm={6} xs={12}>
+						<Grid  item lg={4} md={3} sm={12} xs={12}>
 							<img className='footer-logo' src={logo}/>
 							<p><span style={{fontWeight:"bold"}}>Mon - Thu :</span> 09:00 AM to 12:00 PM</p>
 							<p className='footer-time'><span style={{fontWeight:"bold"}}>Fri :</span> 04:00 PM to 12:00 AM</p>
 							<p className='footer-time'><span style={{fontWeight:"bold"}}>Sat - Sun :</span> 09:00 AM to 12:00 PM</p>
 						</Grid>
-						<Grid item lg={2} md={3} sm={6}  xs={6}>
-							<p className='footer-heading'>NAVIGATION</p>
-							<p className='footer-title'>Home</p>
-							<p className='footer-title'>About us</p>
-							<p className='footer-title'>Blogs</p>
-							<p className='footer-title'>View in Metaverse</p>
+						<Grid item lg={2} md={3} sm={6}  xs={6} className="d-flex">
+							<div className="footer-about">
+								<p className='footer-heading'>NAVIGATION</p>
+								<p className='footer-title'>Home</p>
+								<p className='footer-title'>About us</p>
+								<p className='footer-title'>Blogs</p>
+								<p className='footer-title'>View in Metaverse</p>
+							</div>
 						</Grid>
-						<Grid item lg={2} md={3} sm={6}  xs={6}>
-							<p className='footer-heading'>USEFULL LINKS</p>
-							<p className='footer-title'>Browse Cars</p>
-							<p className='footer-title'>Conatct Us</p>
-							<p className='footer-title'>Terms & Conditions</p>
-							<p className='footer-title'>Privacy Policy</p>
+						<Grid item lg={2} md={3} sm={6}  xs={6} className="d-flex">
+							<div className="footer-about">
+
+								<p className='footer-heading'>USEFULL LINKS</p>
+								<p className='footer-title'>Browse Cars</p>
+								<p className='footer-title'>Conatct Us</p>
+								<p className='footer-title'>Terms & Conditions</p>
+								<p className='footer-title'>Privacy Policy</p>
+							</div>
 						</Grid>
-						<Grid item lg={4} md={3} sm={6}  xs={12}>
+						<Grid item lg={4} md={3} sm={12}  xs={12}>
 							<p className='footer-heading'>Contact Us</p>
 							<p className='footer-title'>Al QuozAl - 2 Al Safeena Street - Al Quoz 1 - Dubai - United Arab Emirates</p>
 							<p className='footer-title'>info@dealsonwheels.ae <br/>+971 4 123 4567</p>

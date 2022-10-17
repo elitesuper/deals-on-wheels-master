@@ -39,7 +39,7 @@ const CardExplore = ({nft}) => {
               marginTop={1}
             >
               <div className='expolre__card__title'>
-              <i className='ce-eath' style={{color:"white"}} class="fa-brands fa-ethereum"></i>
+              <i className='ce-eath fa-brands fa-ethereum' style={{color:"white"}}></i>
               <Typography sx={{color:"white"}} variant="body2" component="p" marginLeft={0}>
                 15.77
               </Typography>
